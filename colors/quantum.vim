@@ -18,7 +18,7 @@ let g:quantum_black = get(g:, 'quantum_black', 0)
 let s:gray1     = g:quantum_black ? '#212121' : '#263238'
 let s:gray2     = g:quantum_black ? '#292929' : '#2c3a41'
 let s:gray3     = g:quantum_black ? '#474646' : '#425762'
-let s:gray4     = g:quantum_black ? '#6a6c6c' : '#658494'
+let s:gray4     = g:quantum_black ? '#999999' : '#658494'
 let s:gray5     = g:quantum_black ? '#b7bdc0' : '#aebbc5'
 let s:red       = '#dd7186'
 let s:green     = '#87bb7c'
@@ -61,7 +61,7 @@ call s:HL('ErrorMsg',                       s:red,      s:gray1,    'bold')
 call s:HL('FoldColumn',                     s:gray4,    s:gray1,    '')
 call s:HL('Folded',                         s:gray3,    s:gray1,    '')
 call s:HL('IncSearch',                      s:yellow,   '',         '')
-call s:HL('LineNr',                         s:gray3,    '',         '')
+call s:HL('LineNr',                         s:gray5,    '',         '')
 call s:HL('MatchParen',                     s:gray4,    s:cyan,     'bold')
 call s:HL('ModeMsg',                        s:green,    '',         '')
 call s:HL('MoreMsg',                        s:green,    '',         '')
